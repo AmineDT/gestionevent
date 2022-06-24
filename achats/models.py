@@ -42,6 +42,5 @@ class Purchases(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'purchases'
         verbose_name = 'Achat'
         verbose_name_plural = 'Achats'

@@ -38,6 +38,5 @@ class Students(models.Model):
 
     class Meta:
         managed = False
-        db_table = 'students'
         verbose_name = 'Etudiant'
         verbose_name_plural = 'Etudiants'
